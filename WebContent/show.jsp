@@ -8,7 +8,7 @@
 </head>
 <body>
 		<%
-			// 设置编码
+			// 设置编码(Post)
 			request.setCharacterEncoding("utf-8");
 			// 接收表单数据
 			String name = request.getParameter("uname");
@@ -28,7 +28,7 @@
 		<%
 			if(hobbies!=null){
 				for(String i : hobbies){
-					out.print(i+"&nbsp;");
+					out.print(i+"&nbsp;"); //空格
 				}
 			}
 		%>

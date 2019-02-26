@@ -10,9 +10,8 @@
 	登陆成功
 	
 	<%
-		String name= request.getParameter("uname");
+		String name= request.getParameter("uname"); // 通过check.jsp接收到数据
 		out.print("欢迎"+name);
-		
 	%>
 </body>
 </html>
