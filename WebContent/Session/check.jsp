@@ -11,16 +11,16 @@
 		request.setCharacterEncoding("utf-8"); // post
 		String name = request.getParameter("uname");
 		String psw = request.getParameter("upsw");
-		
-		if(name.equals("zs")&& psw.equals("123")){
-			//页面跳转1：重定向，地址会变,数据不保留,请求次数2次
-			//response.sendRedirect("success.jsp"); 
+		if(name.equals("zs")&&psw.equals("123")){
+			//只有登录成功，session中才会存在
+			session.setAttribute("uname", name);
+			session.setAttribute("upsw",psw);
+			request.getRequestDispatcher("welcome.jsp").forward(request, response);
 			
-			//页面跳转2：请求转发 ,可以获取到数据，地址栏没有变；请求次数1次
-			request.getRequestDispatcher("success.jsp").forward(request,response);
 		}else{
-			out.println("失败");
+			response.sendRedirect("login.jsp");	
 		}
+		
 	%>
 </body>
 </html>
