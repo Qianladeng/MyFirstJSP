@@ -1,4 +1,14 @@
 MyFirstJSP
+====
+* æœ€åŸºæœ¬çš„JSPï¼ˆcookie,session...)  
+* æ›´é‡è¦çš„æ˜¯å®ç°äº† è¿æ¥æ•°æ®åº“
+<br/>
+
+
+æœ€åŸå§‹çš„MVC
 ---
-* ×î»ù±¾µÄJSP£¨cookie,session...)  
-* ¸üÖØÒªµÄÊÇÊµÏÖÁË Á¬½ÓÊı¾İ¿â
+
+&nbsp;&nbsp;Viewâ€”â€”â€”â€”â€”â€”â€”â€”â€”â†’â†’â†’Controllerâ€”â€”â€”â€”â€”â€”â€”â€”â€”â†’â†’â†’Model
+
+login.jsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+check.jsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LoginDao.java
